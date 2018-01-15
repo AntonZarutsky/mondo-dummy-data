@@ -44,9 +44,10 @@ console.log("Started");
   }
 
   if (client) {
+    console.log("Done");
     client.close();
   }
 })();
 
 
-console.log("Done");
+
